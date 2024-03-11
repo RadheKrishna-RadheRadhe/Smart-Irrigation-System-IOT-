@@ -5,8 +5,8 @@
 
 const char DEVICE_LOGIN_NAME[]  = "8ccde8c5-bb5c-414e-ac7d-2b5451007a72";
 
-const char SSID[]               = SECRET_SSID;    // Network SSID (name)
-const char PASS[]               = SECRET_OPTIONAL_PASS;    // Network password (use for WPA, or use as key for WEP)
+const char SSID[]               = SECRET_SSID;    // Network SSID (name) <- Taken from Credentials
+const char PASS[]               = SECRET_OPTIONAL_PASS;    // Network password (use for WPA, or use as key for WEP) <- Taken From Credentials
 const char DEVICE_KEY[]  = SECRET_DEVICE_KEY;    // Secret device password
 
 void onTriggerLevelChange();
